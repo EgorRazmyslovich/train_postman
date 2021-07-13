@@ -1,0 +1,321 @@
+"info": {
+		"_postman_id": "9f0f4264-2eb7-49ea-b172-e1dda2d492d5",
+		"name": "test postman 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "first",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://168.119.182.98:5002/login?login=razm&password=password",
+					"protocol": "http",
+					"host": [
+						"168",
+						"119",
+						"182",
+						"98"
+					],
+					"port": "5002",
+					"path": [
+						"login"
+					],
+					"query": [
+						{
+							"key": "login",
+							"value": "razm"
+						},
+						{
+							"key": "password",
+							"value": "password"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "second",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"age\": 21,\r\n    \"salary\": 5000,\r\n    \"name\": \"egor\",\r\n    \"auth_token\": \"/s34lfgbj/None/jjd909/61256kjkWpqc812None122068evny\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://168.119.182.98:5002/user_info?age=21&salary=5000&name=egor&auth_token=\"/s34lfgbj/None/jjd909/61256kjkWpqc812None122068evny\"",
+					"protocol": "http",
+					"host": [
+						"168",
+						"119",
+						"182",
+						"98"
+					],
+					"port": "5002",
+					"path": [
+						"user_info"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "21"
+						},
+						{
+							"key": "salary",
+							"value": "5000"
+						},
+						{
+							"key": "name",
+							"value": "egor"
+						},
+						{
+							"key": "auth_token",
+							"value": "\"/s34lfgbj/None/jjd909/61256kjkWpqc812None122068evny\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "third",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "21",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "500",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "egor",
+							"type": "text"
+						},
+						{
+							"key": "auth_token",
+							"value": "\"/s34lfgbj/None/jjd909/61256kjkWpqc812None122068evny\"",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://168.119.182.98:5002/new_data?age=21&salary=500&name=egor&auth_token=\"/s34lfgbj/None/jjd909/61256kjkWpqc812None122068evny\"",
+					"protocol": "http",
+					"host": [
+						"168",
+						"119",
+						"182",
+						"98"
+					],
+					"port": "5002",
+					"path": [
+						"new_data"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "21"
+						},
+						{
+							"key": "salary",
+							"value": "500"
+						},
+						{
+							"key": "name",
+							"value": "egor"
+						},
+						{
+							"key": "auth_token",
+							"value": "\"/s34lfgbj/None/jjd909/61256kjkWpqc812None122068evny\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "forth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "21",
+							"type": "text"
+						},
+						{
+							"key": "weight",
+							"value": "67",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "egor",
+							"type": "text"
+						},
+						{
+							"key": "auth_token",
+							"value": "\"/s34lfgbj/None/jjd909/61256kjkWpqc812None122068evny\"",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://168.119.182.98:5002/test_pet_info",
+					"protocol": "http",
+					"host": [
+						"168",
+						"119",
+						"182",
+						"98"
+					],
+					"port": "5002",
+					"path": [
+						"test_pet_info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fifth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "21",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "500",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "egor",
+							"type": "text"
+						},
+						{
+							"key": "auth_token",
+							"value": "\"/s34lfgbj/None/jjd909/61256kjkWpqc812None122068evny\"",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://168.119.182.98:5002/get_test_user",
+					"protocol": "http",
+					"host": [
+						"168",
+						"119",
+						"182",
+						"98"
+					],
+					"port": "5002",
+					"path": [
+						"get_test_user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sixth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "auth_token",
+							"value": "\"/s34lfgbj/None/jjd909/61256kjkWpqc812None122068evny\"",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://168.119.182.98:5002/currency",
+					"protocol": "http",
+					"host": [
+						"168",
+						"119",
+						"182",
+						"98"
+					],
+					"port": "5002",
+					"path": [
+						"currency"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seventh",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "auth_token",
+							"value": "\"/s34lfgbj/None/jjd909/61256kjkWpqc812None122068evny\"",
+							"type": "text"
+						},
+						{
+							"key": "curr_code",
+							"value": "68",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://168.119.182.98:5002/curr_byn",
+					"protocol": "http",
+					"host": [
+						"168",
+						"119",
+						"182",
+						"98"
+					],
+					"port": "5002",
+					"path": [
+						"curr_byn"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
